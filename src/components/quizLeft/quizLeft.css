@@ -1,0 +1,43 @@
+.QuizLeft {
+  background-color: #252d4a;
+  max-width: 500px;
+  min-height: 300px;
+  height: min-content;
+  width: 50%;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.questionSec {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.false {
+  background-color: crimson;
+ 
+}
+
+.true {
+  background-color: midnightblue;
+}
+
+@media screen and (max-width: 700px) {
+  .QuizLeft {
+    max-width: 90%;
+    width: 90%;
+  }
+}

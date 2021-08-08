@@ -1,0 +1,24 @@
+.quizPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quizPageContainer > button {
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
